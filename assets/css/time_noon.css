@@ -42,18 +42,26 @@ section, footer, header, aside{
 --------------------------*/
 
 
+
 @charset "UTF-8";
 /* CSS Document */
 
-         body { 
-                background:url('http://fc09.deviantart.net/fs70/i/2013/307/e/1/sunset_sky_by_koko_stock-d6svrqa.jpg') #dbe4e6 !important;
-                background-repeat: repeat-x !important;
-                background-attachment: fixed !important;
-                background-position: top center !important;
-                background-color:#000 !important;
-                margin-top:-5px !important;
+ body { 
+      /* Gradient BG*/
+	  background: -webkit-linear-gradient(#FF9933, ##FFFF99); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(#FF9933, #FFFF99); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(#FF9933, #FFFF99); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(#FF9933, #FFFF99); /* Standard syntax */
+
+      /*background:url('../img/bg.jpg') #dbe4e6 !important;*/
+      background-repeat: repeat-x !important;
+      background-attachment: fixed !important;
+      background-position: top center !important;
+      background-color:#000 !important;
+      margin-top:-5px !important;
                 
-         }
+      }
+
 
 
 #clock{

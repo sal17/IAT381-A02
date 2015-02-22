@@ -140,17 +140,6 @@ $(function(){
 
 
 
-var circularSlider = $('#slider').CircularSlider({ 
-    min : 0, 
-    max: 359, 
-    value : 10,
-    labelSuffix: "°",
-    slide : function(value) {
-        ui.next().css({'background' : 'linear-gradient(' + value + 
-            'deg, white, cornsilk, white)'});
-    }
-});	
-	
 
 	
 

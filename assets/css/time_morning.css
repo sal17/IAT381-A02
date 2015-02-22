@@ -42,18 +42,25 @@ section, footer, header, aside{
 --------------------------*/
 
 
+
 @charset "UTF-8";
 /* CSS Document */
 
-         body { 
-                background:url('http://upload.wikimedia.org/wikipedia/commons/1/16/Appearance_of_sky_for_weather_forecast,_Dhaka,_Bangladesh.JPG') #dbe4e6 !important;
-                background-repeat: repeat-x !important;
-                background-attachment: fixed !important;
-                background-position: top center !important;
-                background-color:#000 !important;
-                margin-top:-5px !important;
+ body { 
+      /* Gradient BG*/
+	  background: -webkit-linear-gradient(#0033CC, ##E0FFFF); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(#0033CC, #E0FFFF); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(#0033CC, #E0FFFF); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(#0033CC, #E0FFFF); /* Standard syntax */
+
+      /*background:url('../img/bg.jpg') #dbe4e6 !important;*/
+      background-repeat: repeat-x !important;
+      background-attachment: fixed !important;
+      background-position: top center !important;
+      background-color:#000 !important;
+      margin-top:-5px !important;
                 
-         }
+      }
 
 
 #clock{
