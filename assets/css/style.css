@@ -45,15 +45,21 @@ section, footer, header, aside{
 @charset "UTF-8";
 /* CSS Document */
 
-         body { 
-                background:url('../img/bg.jpg') #dbe4e6 !important;
-                background-repeat: repeat-x !important;
-                background-attachment: fixed !important;
-                background-position: top center !important;
-                background-color:#000 !important;
-                margin-top:-5px !important;
+ body { 
+      /* Gradient BG*/
+	  background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(red, blue); /* Standard syntax */
+
+      /*background:url('../img/bg.jpg') #dbe4e6 !important;*/
+      background-repeat: repeat-x !important;
+      background-attachment: fixed !important;
+      background-position: top center !important;
+      background-color:#000 !important;
+      margin-top:-5px !important;
                 
-         }
+      }
 
 
 #clock{
